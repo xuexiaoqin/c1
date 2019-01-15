@@ -17,10 +17,8 @@ int main()
         scanf("%d", &code);
         if (code == 1)
         {
-
             int cun;
             printf("进入存钱功能区,请输入存款金额\n");
-
             scanf("%d", &cun);
             qian += cun;
             printf("存钱成功，点击回车继续\n");
@@ -51,9 +49,15 @@ int main()
         }
         if (code == 3)
         {
+            char x;
+            printf("当前余额为%d\n",qian);
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if (code == 4)
         {
+            printf("退出程序\n");
+            break;
         }
     }
 
